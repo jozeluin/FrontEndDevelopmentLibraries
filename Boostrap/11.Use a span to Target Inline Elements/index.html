@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ferris Wheel</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css?family=Lobster"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <!-- Libreria Boostrap -->
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous"
+  />
+  <!--.................... -->
+  <style>
+
+
+    h2 {
+      font-family: Lobster, Monospace;
+    }
+
+    
+
+    .thick-green-border {
+      border-color: green;
+      border-width: 10px;
+      border-style: solid;
+      border-radius: 50%;
+    }
+
+  
+  </style>
+  <div class="container-fluid">
+    <h2 class="text-center text-primary">CatPhotoApp</h2>
+    <!-- Centramos el texto añadiendo la clase "text-center" -->
+   
+
+    <a href="#"
+      ><img
+        class="img-responsive thick-green-border"
+        src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+        alt="A cute orange cat lying on its back."
+    /></a>
+
+    <img
+      class="img-responsive"
+      src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg"
+    />
+    <!-- Colocamos una imagen y no nos tenemos que preocupar de dar una ancho para nuestro telefono
+ con la libreria Boostrap al agregar el class= "img-responsive", lo hace automaticamente-->
+
+    <div class="row">
+      <div class="col-xs-4">
+        <button class="btn btn-primary btn-block">Like</button>
+      </div>
+      <!-- Creamos un nuevo boton con Boostrap -->
+      <!-- Con la nueva clase btn-block el boton crecera hasta el ancho de la pagina, si tuviera al lado un   elemento este pasaria a la linea de abajo -->
+      <!-- Cambiamos el default por primary, asi cambiamos el color de fondo del boton y ademas cuando se selecciona queda mas resaltado  -->
+      <div class="col-xs-4">
+        <button class="btn btn-info btn-block">Info</button>
+      </div>
+      <!-- Boostrap tiene predifinido unos colores para botones, este su color es para realizar labores secundarias -->
+      <div class="col-xs-4">
+        <button class="btn btn-danger btn-block">Delete</button>
+        <!-- Otro color predefinido, esta vez es para realizar tareas destructivas como borrar -->
+      </div>
+    </div>
+    <!-- Boostrap utiliza un sistema de grid de 12 columnas, hay que pensar que muchas classes de boostrap se pueden utilizar para "<div>". La clase col-md seria para aparatos medianos como un portatil, en nuestro caso utlizamos col-xs por que es para movil, el digito siguiente son las columnas de ancho col-xs-4, el 4. xs significa "extra small". -->
+     <p>Things cats <span class="text-danger">love:</span></p>
+<!-- Utilizando el elemento "span" podemo dar un estilo inline dentro de un estilo block, en este caso resaltamos en rojo la palabra love -->
+    <ul>
+      <li>catnip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+    <form action="https://freecatphotoapp.com/submit-cat-photo">
+      <label><input type="radio" name="indoor-outdoor" /> Indoor</label>
+      <label><input type="radio" name="indoor-outdoor" /> Outdoor</label>
+      <label><input type="checkbox" name="personality" /> Loving</label>
+      <label><input type="checkbox" name="personality" /> Lazy</label>
+      <label><input type="checkbox" name="personality" /> Crazy</label>
+      <input type="text" placeholder="cat photo URL" required />
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</html>
