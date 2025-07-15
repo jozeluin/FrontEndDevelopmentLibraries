@@ -1,0 +1,63 @@
+<!-- Vamos a realizar un centro de pruebas de jQuery desde 0 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ferris Wheel</title>
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css?family=Lobster"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <!-- Libreria Boostrap -->
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous"
+  />
+  <!--.................... -->
+
+  <!-- Libreria de iconos i fuentes Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+  />
+
+  <!-- Ahora vamos a asegurarnos que el contenido de la pagina sea mobil-responsive, colocando el h3 dentro de un div "container-fluid" -->
+  <div class="container-fluid">
+    <h3 class="text-primary text-center">jQuery Playground</h3>
+    <!-- Creamos un div con clase "row" -->
+    <div class="row">
+      <!-- Lo dividimos en dos columnas -->
+      <div class="col-xs-6">
+        <!-- Colocamos classe "well" que da profundidad a sus elementos, un pequeño sombreado -->
+        <div class="well">
+          <!-- Añadimos botones -->
+          <!-- Les colocamos el estilo btn + btn-default de Boostrap -->
+          <!-- Habeces se colocan classe para que se seleccionen mas facilmente, ahora utilizaremos una clase de jQuery "target" -->
+          <!-- Añadimos id identificativos -->
+          <!-- Colocamos etiquetas h4 -->
+          <h4>#left-well</h4>
+          <button id="left-well" class="btn btn-default target"></button>
+          <button id="center-well" class="btn btn-default target"></button>
+          <button id="right-well" class="btn btn-default target"></button>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <h4>#right-well</h4>
+        <div class="well">
+          <button id="left-well" class="btn btn-default target"></button>
+          <button id="center-well" class="btn btn-default target"></button>
+          <button id="right-well" class="btn btn-default target"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>
