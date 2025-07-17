@@ -1,0 +1,15 @@
+//HFemos tenido que instalar la extension Live Sass Compiler
+//y una vez que tenemos el archivo .scss le damos a Watching, este generara
+//un archivo.css y ese sera el que tengamos que vincular con nuestro html
+
+// Mediante la anidacion podemos darle estilo con reglas secundarias a sus respectivos elementos principales.
+.blog-post {
+  //Aqui podria ir propiedad si estar dentro de otras llaves
+  h1 {
+    text-align: center;
+    color: blue;
+  }
+  p {
+    font-size: 20px;
+  }
+}

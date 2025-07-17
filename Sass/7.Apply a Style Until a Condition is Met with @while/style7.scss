@@ -1,0 +1,13 @@
+/*
+while, genuino
+*/
+$x: 1;
+@while $x < 6 {
+  .text-#{$x} {
+    font-size: 15px * $x;
+  }
+  $x: $x + 1;
+}
+/*
+El cap 8 , trata de que se pueden dividir los archivos scss en partes, colocando un guion bajo delante del nombre del archivo, se denominan "Partials", parciales
+*/

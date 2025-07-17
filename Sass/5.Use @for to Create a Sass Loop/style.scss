@@ -1,0 +1,12 @@
+
+//Tenemos tambien el for, de dos maneras:
+// for variable from numero-star through numero-end; incluye ultimo numero
+// for variable from numero-star to numero-end; No incluye ultimo numero
+
+
+ @for $j from 1 through 6 {
+   .text-#{$j} { font-size: 15px * $j}
+}
+
+
+

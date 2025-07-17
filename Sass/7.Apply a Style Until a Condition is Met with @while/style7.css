@@ -1,0 +1,26 @@
+/*
+while, genuino
+*/
+.text-1 {
+  font-size: 15px;
+}
+
+.text-2 {
+  font-size: 30px;
+}
+
+.text-3 {
+  font-size: 45px;
+}
+
+.text-4 {
+  font-size: 60px;
+}
+
+.text-5 {
+  font-size: 75px;
+}
+
+/*
+El cap 8 , trata de que se pueden dividir los archivos scss en partes, colocando un guion bajo delante del nombre del archivo, se denominan "Partials", parciales
+*//*# sourceMappingURL=style7.css.map */
