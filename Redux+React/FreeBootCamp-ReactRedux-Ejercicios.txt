@@ -1,0 +1,41 @@
+##### 1.Getting Started with React Redux
+
+###### &nbsp;-Primero creamos el compoenente de React
+
+
+
+class DisplayMessages extends React.Component {
+
+&nbsp; // Change code below this line
+
+&nbsp;   constructor(props) {
+
+&nbsp;       super(props);
+
+&nbsp;         this.state = {
+
+&nbsp;           input: "",
+
+&nbsp;           messages:\[]
+
+&nbsp;         };
+
+&nbsp;    };
+
+&nbsp; // Change code above this line
+
+&nbsp; render() {
+
+&nbsp;   return <div />
+
+&nbsp; }
+
+};
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+##### 
