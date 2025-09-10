@@ -13,13 +13,14 @@
 // import MyApp from "./componentes/Leccion29";
 // import MyComponent from "./componentes/Leccion32";
 // import Clock from "./componentes/Leccion33";
+import Controller from "./componentes/Leccion34";
 // import Colorful from "./componentes/Leccion35";
 //  import MagicEightBall from "./componentes/Leccion36";
 //  import MyComponent from "./componentes/Leccion37";
 //  import GameOfChance from "./componentes/Leccion40";
 // import GateKeeper from "./componentes/Leccion41";
 // import MyToDoList from "./componentes/Leccion42";
- import MyComponent from "./componentes/Leccion44";
+//  import MyComponent from "./componentes/Leccion44";
 
 
 
@@ -50,7 +51,8 @@ function App() {
       {/* <MyApp /> */}
       {/* <MyComponent/> */}
       {/* <Clock/> */}
-      <MyComponent/>
+      {/* <Clock/> */}
+      <Controller/>
     </>
   );
 }
